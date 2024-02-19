@@ -1,0 +1,214 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+ /* here is the header section  */
+header{
+    display: flex;
+    width: 80%;
+    background: linear-gradient(90deg, rgba(142, 0, 177, 0.47) 50%, rgba(241, 15, 178, 0.56) 63.86%, rgba(251, 0, 222, 0.51) 63.86%);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    padding: 0;
+}
+
+header h3{
+    margin-right: 33%;
+    padding-left: 2%;
+    color: #fff;
+}
+
+header img{
+    margin-right: 18%;
+    height: 45px;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    margin-right: 1%;
+}
+
+
+header ul li{
+    padding: 10px;
+    list-style: none;
+} /*here is where the header section stop*/
+
+
+/* here is the header2 section  */
+section{
+    width: 80%;
+    background: linear-gradient(90deg, rgba(142, 0, 177, 0.47) 50%, rgba(241, 15, 178, 0.56) 63.86%, rgba(251, 0, 222, 0.51) 63.86%);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    padding: 0;
+}
+
+
+.header2{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.header2 h3{
+    margin-right: 33%;
+    padding-left: 2%;
+    color: #fff;
+}
+
+.header2 img{
+    margin-right: 18%;
+    height: 45px;
+}
+
+.header2 ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+
+.header2 ul li{
+    padding: 10px;
+    list-style: none;
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+section h5{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+section h2{
+    padding-top: 0;
+    margin-top: 0;
+}
+.search-container {
+    display: flex;
+  }
+  
+  #searchInput {
+    padding: 8px 10px 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 4px 4px 4px;
+    background-color: rgba(184, 97, 198, 1);
+    margin-right:5px;
+  }
+  
+  button {
+    color: #fff;
+    padding: 8px 10px;
+    border: 1px solid #ffffff;
+    border-radius: 4px 4px 4px 4px;
+    cursor: pointer;
+    background-color: transparent;
+  } /*here is where the header section stop*/
+
+  @media only screen and (max-width: 765px) {
+    /* Add your mobile styles here */
+    header {
+        width: 100%;
+        display: flex;
+        flex-direction:column ;
+        justify-content: center;
+        align-items: center;
+        margin: 0%;
+    }
+
+    header h3{
+        margin-right: 0%;
+        padding-left: 0%;
+        color: #fff;
+    }
+
+    header img{
+        height: 45px;
+        margin: 0;
+    }
+    
+    header ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #fff;
+        margin-right: 0%;
+        padding: 0;
+    }
+    
+    
+    header ul li{
+        padding: 10px;
+        list-style: none;
+    }  /*here is where the header section stop*/
+    
+    /* here is the header2 section  */
+section{
+    width: 100%;
+    background: linear-gradient(90deg, rgba(142, 0, 177, 0.47) 50%, rgba(241, 15, 178, 0.56) 63.86%, rgba(251, 0, 222, 0.51) 63.86%);
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 5%;
+    padding: 0;
+}
+
+
+.header2{
+    width: 100%;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    /* margin-bottom: 30px; */
+}
+
+.header2 h3{
+    margin-right: 0%;
+    padding-left: 0%;
+    color: #fff;
+}
+
+.header2 img{
+    height: 45px;
+    margin-right: 0%;
+}
+
+.header2 ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header2 ul li{
+    padding: 10px;
+    list-style: none;
+    margin: 0;
+}
+
+section h2{
+    padding: 0px 30px;
+    text-align: center;
+    
+}
+
+  }
+  
